@@ -191,6 +191,7 @@ body {
           font-weight: 900;
           margin-top: 0;
           width: 339px;
+          color: var(--primary);
         }
       }
 
@@ -710,6 +711,7 @@ body {
         #heroTitle {
           font-size: xxx-large;
           margin-top: 0;
+          color: var(--primary);
         }
       }
 
