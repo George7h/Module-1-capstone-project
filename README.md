@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="/Logo%20files/133775895_padded_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./assets/logo/svg/Color%20logo%20-%20no%20background.svg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Readme</b></h3>
@@ -157,8 +157,8 @@ Open in browser to view site.
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Register as a user]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Add dice feature]**
+- [ ] **[find friends]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,6 +185,8 @@ If you like this project please give it a ⭐️
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank my codereviewers for reviewing my code in this project development.
+
+I would like to thank Cindy Shin <a href="https://www.behance.net/adagio07">link</a> for the template inspiration.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
