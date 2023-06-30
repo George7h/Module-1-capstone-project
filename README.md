@@ -67,7 +67,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>HTML</summary>
   <ul>
-    <li><a href="./home.html">Home page</a></li>
+    <li><a href="./index.html">Home page</a></li>
     <li><a href="./about.html">About page</a></li>
   </ul>
 </details>
@@ -101,7 +101,7 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]Please click on this <a href="https://george7h.github.io/Module-1-capstone-project/">link</a>, to find my live website.
+- [Live Demo Link]Please click on this <a href="https://george7h.github.io/Module-1-capstone-project/index.html">link</a>, to find my live website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
