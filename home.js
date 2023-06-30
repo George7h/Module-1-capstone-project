@@ -58,8 +58,9 @@ const dungeonMaster = [
 
 const speaker = document.querySelector('.speaker-contents');
 for (let i = 0; i < dungeonMaster.length; i += 1) {
+  const hideClass = i >= 2 ? 'hide-mobile' : '';
   speaker.innerHTML += `
-          <div id="speaker-content" class="speaker-content">
+          <div id="speaker-content" class="speaker-content ${hideClass}">
             <div class="speaker-image">
               <img src="${dungeonMaster[i].image}" width="150">
             </div>
@@ -72,6 +73,14 @@ for (let i = 0; i < dungeonMaster.length; i += 1) {
           </div>
 `;
 }
+
+const showMoreButton = document.querySelector('.showMore');
+showMoreButton.addEventListener('click', () => {
+  const hiddenSpeakerContents = document.querySelectorAll('.speaker-content.hide-mobile');
+  hiddenSpeakerContents.forEach((content) => {
+    content.classList.remove('hide-mobile');
+  });
+});
 
 // Add an event listener to the links with the 'fade-link' class
 const links = document.querySelectorAll('.fade-link');
