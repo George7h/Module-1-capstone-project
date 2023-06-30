@@ -51,7 +51,7 @@ body {
   border-radius: 1px;
 }
 
-#ruler2 {
+#ruler1 {
   width: 18px;
   height: 1.5px;
   background-color: var(--triatery);
@@ -62,13 +62,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-self: stretch;
-  gap: 70px;
 }
 
 .navbar-logo img {
-  width: 100px;
-  height: 100px;
+  width: 169px;
+  height: 72px;
 }
 
 .menu-btn {
@@ -83,10 +81,10 @@ body {
   display: flex;
   list-style: none;
   margin: 0;
+  gap: 15px;
   padding: 0;
   justify-content: center;
   align-items: center;
-  gap: 65px;
 }
 
 .menu-items li {
@@ -215,6 +213,15 @@ body {
         font-weight: 900;
         line-height: 0px;
         letter-spacing: -1.6px;
+
+        .virtualMeeting {
+          color: #868686;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 0px;
+          letter-spacing: -0.26px;
+        }
       }
     }
   }
@@ -328,11 +335,12 @@ body {
   .speaker-heading {
     margin-bottom: 30px;
 
-    #ruler {
+    .ruler {
       width: 30px;
       height: 2px;
       background-color: var(--primary);
       border-radius: 1px;
+      margin: 0 auto;
     }
   }
 
@@ -358,7 +366,7 @@ body {
   .speakerDetails {
     width: 100%;
 
-    .ruler {
+    .ruler1 {
       width: 18px;
       height: 1.5px;
       background-color: var(--triatery);
@@ -367,16 +375,24 @@ body {
   }
 
   .speakerDetails h2 {
-    color: gray;
-    font-size: 18px;
     margin-bottom: 12px;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.3px;
   }
 
   .speakerDetails h5 {
-    color: var(--primary);
-    font-style: italic;
-    font-weight: 600;
-    font-size: 12px;
+    color: #f78c89;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14.943px;
+    letter-spacing: -0.2px;
+    margin-top: 0;
+    margin-bottom: 10px;
   }
 
   .speakerDetails p {
@@ -438,11 +454,15 @@ body {
           #themeSub {
             display: flex;
             color: var(--primary);
+            margin: 0;
+            font-weight: 300;
           }
 
           #themeTitle {
             text-align: center;
             color: var(--primary);
+            margin: 0;
+            font-weight: 900;
           }
         }
       }
@@ -519,6 +539,7 @@ body {
       justify-content: center;
       align-items: center;
       gap: 10px;
+      text-align: center;
 
       .frame2 {
         display: flex;
@@ -565,6 +586,14 @@ body {
           font-size: 24px;
           text-align: center;
           flex-direction: column;
+
+          #imagedate {
+            margin: 0;
+          }
+
+          #imagetext {
+            margin: 0;
+          }
         }
       }
     }
@@ -631,17 +660,30 @@ body {
       gap: 29.525px;
 
       .footerlogo {
-        width: 135px;
+        width: 200px;
         height: 150px;
       }
 
       #credit {
         color: #3b3e45;
         font-size: 10px;
-        font-family: 'lato', arial, helvetica, sans-serif;
+        font-style: normal;
         font-weight: 700;
         line-height: 13.078px;
         letter-spacing: -0.1px;
+
+        #credit2 {
+          color: white;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 13.078px;
+          letter-spacing: -0.1px;
+
+          #hidefooterpara {
+            display: none;
+          }
+        }
       }
     }
   }
@@ -668,6 +710,13 @@ body {
     }
   }
 
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+
   .close-btn {
     display: none;
     background: none;
@@ -680,6 +729,7 @@ body {
 
   .menuLineItems {
     color: black;
+    padding: 2px;
   }
 
   /* Desktop home page */
@@ -703,13 +753,14 @@ body {
 
       .hero1 {
         #heroSub {
-          font-size: xx-large;
+          font-size: 35px;
           margin-bottom: 0;
           color: var(--primary);
+          font-weight: 300;
         }
 
         #heroTitle {
-          font-size: xxx-large;
+          font-size: 70px;
           margin-top: 0;
           color: var(--primary);
         }
@@ -730,10 +781,20 @@ body {
         flex-direction: column;
         align-items: flex-start;
         color: #595959;
-        font-size: 20px;
+        font-size: 42.484px;
+        font-style: normal;
         font-weight: 900;
         line-height: 0px;
-        letter-spacing: -1.6px;
+        letter-spacing: -3.399px;
+
+        .virtualMeeting {
+          color: #868686;
+          font-size: 27.614px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 0px;
+          letter-spacing: -0.552px;
+        }
       }
     }
   }
@@ -857,10 +918,12 @@ body {
 
   .speaker-heading h1 {
     text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
     font-weight: 400;
-    margin-bottom: 12px;
-    color: grey;
-    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
   }
 
   .speaker-content {
@@ -872,7 +935,7 @@ body {
   .speakerDetails {
     width: 100%;
 
-    .ruler {
+    .ruler1 {
       width: 18px;
       height: 1.5px;
       background-color: var(--triatery);
@@ -881,16 +944,24 @@ body {
   }
 
   .speakerDetails h2 {
-    color: grey;
-    font-size: 20px;
     margin-bottom: 12px;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.48px;
   }
 
   .speakerDetails h5 {
-    font-weight: 600;
-    font-size: 12px;
-    color: var(--primary);
-    font-style: italic;
+    color: #f78c89;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -1.35px;
+    margin-top: 0;
+    margin-bottom: 10px;
   }
 
   .speakerDetails p {
@@ -899,7 +970,7 @@ body {
   }
 
   #dungeonMaster {
-    padding: 50px 160px;
+    padding: 5px 160px;
   }
 
   .speaker-contents {
@@ -1014,6 +1085,7 @@ body {
         justify-content: center;
         align-items: center;
         gap: 20px;
+        text-align: center;
 
         .frame1 {
           display: flex;
@@ -1037,7 +1109,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 35px;
-    padding: 35px 0 35px 0;
+    padding: 20px 0 120px 0;
 
     .frame3 {
       display: flex;
@@ -1047,10 +1119,13 @@ body {
       gap: 10px;
 
       .frame2 {
+        text-align: center;
+
         .frame1 {
           display: flex;
           flex-direction: column;
           align-items: center;
+          text-align: center;
         }
       }
     }
@@ -1086,9 +1161,21 @@ body {
           font-size: 24px;
           text-align: center;
           flex-direction: column;
+
+          #imagedate {
+            margin: 0;
+          }
+
+          #imagetext {
+            margin: 0;
+          }
         }
       }
     }
+  }
+
+  #partershide {
+    display: none;
   }
 
   .partners {
@@ -1116,7 +1203,7 @@ body {
         font-size: 30px;
 
         #partnersTitle1 {
-          color: lightgrey;
+          color: #8f8f91;
           margin-bottom: 0;
         }
       }
@@ -1138,6 +1225,10 @@ body {
     }
   }
 
+  #aboutfoot {
+    background-color: #272a31;
+  }
+
   footer {
     display: flex;
     width: 100%;
@@ -1151,19 +1242,28 @@ body {
       justify-content: center;
       align-items: center;
       gap: 29.525px;
+      margin: 0;
+      padding: 0 100px 0 100px;
 
       .footerlogo {
-        width: 135px;
+        width: 250px;
         height: 150px;
       }
 
       #credit {
-        color: #3b3e45;
-        font-size: 10px;
-        font-family: 'lato', arial, helvetica, sans-serif;
+        color: white;
+        font-size: 14px;
+        font-style: normal;
         font-weight: 700;
-        line-height: 13.078px;
-        letter-spacing: -0.1px;
+        letter-spacing: -0.56px;
+      }
+
+      #credit2 {
+        color: black;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: -0.56px;
       }
     }
   }
