@@ -672,17 +672,33 @@ body {
         line-height: 13.078px;
         letter-spacing: -0.1px;
 
-        #credit2 {
-          color: white;
-          font-size: 10px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 13.078px;
-          letter-spacing: -0.1px;
+        #hidefooterpara {
+          display: none;
+        }
+      }
+    }
 
-          #hidefooterpara {
-            display: none;
-          }
+    .homeContent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 29.525px;
+
+      .homelogo {
+        width: 200px;
+        height: 150px;
+      }
+
+      #homecredit {
+        color: #3b3e45;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 13.078px;
+        letter-spacing: -0.1px;
+
+        #homehidefooterpara {
+          display: none;
         }
       }
     }
@@ -1229,6 +1245,10 @@ body {
     background-color: #272a31;
   }
 
+  #homefoot {
+    background-color: #272a31;
+  }
+
   footer {
     display: flex;
     width: 100%;
@@ -1257,8 +1277,22 @@ body {
         font-weight: 700;
         letter-spacing: -0.56px;
       }
+    }
 
-      #credit2 {
+    .homeContent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 29.525px;
+      margin: 0;
+      padding: 0 100px 0 100px;
+
+      .homelogo {
+        width: 250px;
+        height: 150px;
+      }
+
+      #homecredit {
         color: black;
         font-size: 14px;
         font-style: normal;
