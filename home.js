@@ -31,7 +31,7 @@ const dungeonMaster = [
     description: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
   },
   {
-    image: './assets/Speakers/pexels-rene-asmussen-25758.jpg',
+    image: './assets/Speakers/pexels-valiantsin-konan-10547073.jpg',
     name: 'Benjamin Smith',
     hosted: 'Tournaments Hosted : 12',
     description: 'Specializes in high-octane, combat-focused adventures. In the Battlegrounds of Valor, players participate in grand-scale battles, epic duels, and daring quests that test their tactical skills and valor. With intense combat encounters and strategic decision-making, this game experience is perfect for players seeking thrilling action and heroic feats.',

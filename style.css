@@ -388,6 +388,22 @@ a:hover {
     display: flex;
     gap: 20px;
     margin-bottom: 40px;
+
+    .speaker-image {
+      position: relative;
+      display: inline-block;
+      padding: 20px;
+      background-image: linear-gradient(-3deg, transparent 10%, #0c0c0c 10%);
+      background-origin: border-box;
+      background-clip: content-box;
+    }
+
+    .speaker-image img {
+      display: flex;
+      max-width: 100%;
+      padding: 20px 20px 0 20px;
+      height: auto;
+    }
   }
 
   .speakerDetails {
@@ -983,6 +999,22 @@ a:hover {
     display: flex;
     gap: 20px;
     margin-bottom: 50px;
+
+    .speaker-image {
+      position: relative;
+      display: inline-block;
+      padding: 20px;
+      background-image: linear-gradient(0deg, transparent 10%, #0c0c0c 50%);
+      background-origin: border-box;
+      background-clip: content-box;
+    }
+
+    .speaker-image img {
+      display: flex;
+      max-width: 100%;
+      padding: 20px 20px 0 20px;
+      height: auto;
+    }
   }
 
   .speakerDetails {
