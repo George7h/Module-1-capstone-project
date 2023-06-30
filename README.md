@@ -58,13 +58,11 @@ After you're finished please remove all the comments and instructions!
 # 📖 [NPConnect] <a name="about-project"></a>
 
 
-**[NPConnect]** is a...
+**[NPConnect]** is a website to connect people that are interested in the role-playing game: Dungeons and Dragons. This website will have awesome features. Finding awesome Dungeon Masters, find nearby players and much more. Check it out.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>HTML</summary>
