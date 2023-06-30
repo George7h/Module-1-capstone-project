@@ -30,8 +30,6 @@ After you're finished please remove all the comments and instructions!
   <img src="./assets/logo/svg/Color%20logo%20-%20no%20background.svg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Readme</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -59,7 +57,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [NPConnect] <a name="about-project"></a>
 
-> This project is made to connect different people interessted in different games. This is to bring a gaming community together.
 
 **[NPConnect]** is a...
 
@@ -153,8 +150,6 @@ Open in browser to view site.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Register as a user]**
 - [ ] **[Add dice feature]**
